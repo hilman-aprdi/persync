@@ -1,6 +1,6 @@
 # Persync
 
-AI Business Direction Assistant untuk user Indonesia.
+AI Business Direction Assistant>
 
 ## Stack
 
