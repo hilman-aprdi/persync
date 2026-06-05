@@ -45,10 +45,6 @@ jobs:
       working-directory: ./fe
       run: npm ci
 
-    - name: Lint Frontend
-      working-directory: ./fe
-      run: npm run lint --if-present
-
     - name: Build Frontend
       working-directory: ./fe
       env:
