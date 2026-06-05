@@ -1,6 +1,6 @@
 # Persync
 
-AI Business Direction Assistant>
+AI Business Direction Assistant.
 
 ## Stack
 
