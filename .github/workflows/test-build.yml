@@ -70,14 +70,14 @@ jobs:
       uses: docker/setup-buildx-action@v3
 
     - name: Build Docker Images
-      run: docker-compose build
+      run: docker compose build
       env:
         DOCKER_BUILDKIT: 1
 
     - name: Verify Images
       run: |
         docker images | grep persync
-        docker-compose config --quiet
+        docker compose config --quiet
 
   deploy-ready:
     needs: [test, docker-build]
